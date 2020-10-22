@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "FrontEnd"
+    }
+  },
+  "defaultProject": "FrontEnd",
+  "cli": {
+    "analytics": "d24b8277-6a09-42ce-bc5e-5cdfd9405572"
+  }
 }
