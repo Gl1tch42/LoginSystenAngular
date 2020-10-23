@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 import { AuthenticationService } from './services/authentification.service';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

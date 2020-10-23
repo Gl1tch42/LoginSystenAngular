@@ -5,17 +5,19 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SingUpComponent } from './sing-up/sing-up.component';
 import { fakeBackendProvider } from './helpers/fake-backend';
 import { ErrorInterceptor } from './helpers/error.interceptor';
 import { JwtInterceptor } from './helpers/jwt.interceptor';
+import { AlertComponent } from './alert/alert.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 @NgModule({
   declarations: [
     AppComponent,
+    AlertComponent,
     LoginComponent,
-    SingUpComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
