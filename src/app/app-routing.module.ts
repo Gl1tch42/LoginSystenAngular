@@ -9,7 +9,6 @@ const routes: Routes = [
   { path: 'singup', component: RegisterComponent },
 
   // otherwise redirect to home
-  { path: '**', redirectTo: '' }
 
 ];
 
